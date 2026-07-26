@@ -1,0 +1,22 @@
+# Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Ambientes Virtuais
+venv/
+.venv/
+env/
+
+# Dados locais de teste
+data/
+*.csv
+*.json
+*.parquet
+
+# Configurações de IDEs e Databricks
+.vscode/
+.idea/
+.databricks/
+*.log
