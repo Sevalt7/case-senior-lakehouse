@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "case-senior-lakehouse"
+version = "1.0.0"
+description = "Data Product Lakehouse em Databricks para Transações Financeiras"
+authors = [{ name = "Steffan Sevalt" }]
+requires-python = ">=3.10"
+
+dependencies = [
+    "pyspark>=3.4.0",
+    "delta-spark>=3.0.0",
+    "pydantic>=2.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "chispa>=0.9.0"
+]
